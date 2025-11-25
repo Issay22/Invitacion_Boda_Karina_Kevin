@@ -1,0 +1,190 @@
+body{
+    background-color: whitesmoke;
+    text-align: center;
+    text-shadow: 4px 4px 10px #aaa;
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#todo{
+    width: 100%;
+    max-width: 429px;
+    height: auto;
+    background-color: white;
+}
+
+.espacio{
+    width: 100%;
+    padding: 5%;
+}
+
+#portada {
+    background-image: url('./img/uno.JPG');
+    width: 100%;
+    max-width: 429px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    position: relative; 
+}
+
+#introduccion{
+    background: linear-gradient(to bottom, white, whitesmoke);
+}
+
+#lugares{
+    background: linear-gradient(to bottom, whitesmoke, #f0ede8);
+}
+
+#fotosUno{
+    background: linear-gradient(to bottom, #f0ede8, #77746f);
+}
+
+#invi{
+   background: linear-gradient(to bottom, #77746f, #f0ede8); 
+}
+
+#resp{
+    background: linear-gradient(to bottom, #f0ede8, whitesmoke); 
+}
+
+#once{
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+#dresscode{
+    background: linear-gradient(to bottom, whitesmoke, #f0ede8);
+}
+
+#regalos{
+    background: linear-gradient(to bottom, #f0ede8, #77746f);
+}
+
+#fotosdos{
+    background: linear-gradient(to bottom, #77746f, #f0ede8); 
+    margin: 0;
+}
+
+#space{
+    background-color: #77746f;
+}
+
+#noo:hover{
+    background-color: rgb(226, 57, 57);
+}
+
+.texto-portada {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+
+    width: 60%;
+    font-size: 5px;
+
+    /*background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;*/
+}
+
+h1 {
+    font-size: 1.8rem; 
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+.pa{
+    font-size: 1rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.galeria-item {
+    height: 350px; 
+    overflow: hidden;
+}
+
+.galeria-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.contador-num {
+    font-size: 2.5rem; 
+    font-weight: bold;
+    line-height: 1.1; 
+}
+
+.contador-label {
+    font-size: 0.8rem;
+    margin-top: -5px;
+}
+
+
+/* === animacion 1 === */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; 
+        transform: translateY(20px); 
+    }
+    to {
+        opacity: 1; 
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.01); 
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+#introduccion > div:first-child {
+    animation: fadeIn 1s ease-out forwards;
+}
+
+#contador {
+    opacity: 0; 
+    animation: fadeIn 1s ease-out 1.2s forwards, 
+               pulse 1.5s infinite alternate 2s;
+}
+
+/* === animacion itinerario  lleva JS=== */
+
+@keyframes slideInFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%); 
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0); 
+    }
+}
+
+.animate-on-scroll {
+    opacity: 0; 
+    transform: translateX(50%); 
+    transition: transform 1s ease-out, opacity 1s ease-out; 
+    will-change: transform, opacity; 
+}
+
+.animate-on-scroll.is-visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
