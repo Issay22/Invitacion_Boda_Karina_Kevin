@@ -20,7 +20,7 @@ body{
 }
 
 #portada {
-    background-image: url('./uno.JPG');
+    background-image: url('./uno.jpg');
     width: 100%;
     max-width: 429px;
     height: 300px;
@@ -187,5 +187,6 @@ p{
     opacity: 1;
     transform: translateX(0);
 }
+
 
 
