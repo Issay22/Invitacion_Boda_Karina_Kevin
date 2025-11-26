@@ -16,7 +16,7 @@ body{
 
 #todo{
     width: 100%;
-    max-width: 429px;
+    max-width: 390px;
     height: auto;
     background-color: white;
 }
@@ -24,7 +24,7 @@ body{
 #portada {
     background-image: url('./uno.jpg');
     width: 100%;
-    max-width: 429px;
+    max-width: 390px;
     height: 300px;
     background-size: cover;
     background-position: center;
@@ -206,6 +206,7 @@ h2 {
     transform: translateX(0);
 
 }
+
 
 
 
