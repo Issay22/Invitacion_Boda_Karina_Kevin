@@ -6,6 +6,9 @@ body{
     font-family: "Cormorant SC", serif;
     font-weight: 400;
     font-style: normal;
+
+    display: grid;
+    place-items: center;
 }
 
 #todo{
@@ -190,4 +193,5 @@ h2 {
 .animarAlBajar.is-visible {
     opacity: 1;
     transform: translateX(0);
+
 }
