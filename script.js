@@ -67,9 +67,23 @@ async function loadInvitacion() {
         document.getElementById('nombreinvitado').textContent = 'Estimado invitado no estas identificado, contáctanos por favor.';
         document.getElementById('invitacionoracion').textContent = 'No identificado';
     }
-}
 
-document.addEventListener('DOMContentLoaded', loadInvitacion);
+    const actualizarTexto = () => {
+        const unaS = document.getElementById('ess');
+        const unaP = document.getElementById('es');
+        const npasesEl = document.getElementById('npases');
+
+        if (parseInt(npasesEl.textContent) <= 1) {
+            unaS.textContent = '';
+            unaP.textContent = '';
+        } else {
+            unaS.textContent = 'es';
+            unaP.textContent = 's';
+        }
+    };
+
+    actualizarTexto();  
+}
 
 
 
@@ -97,5 +111,6 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(el);
     });
 });
+
 
 
