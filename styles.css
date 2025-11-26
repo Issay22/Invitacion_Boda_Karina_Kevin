@@ -9,6 +9,7 @@ body{
     overflow-x: hidden;
     display: grid;
     place-items: center;
+    padding: 5px;
 }
 
 * { box-sizing: border-box; }
@@ -141,6 +142,10 @@ h2 {
     font-size: 2rem; 
 }
 
+.animahidde{
+    overflow: hidden;
+}
+
 /* === animacion 1 === */
 
 @keyframes fadeIn {
@@ -202,5 +207,6 @@ h2 {
     transform: translateX(0);
 
 }
+
 
 
