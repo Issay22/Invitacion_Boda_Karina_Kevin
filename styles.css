@@ -107,7 +107,6 @@ h2 {
 }
 
 .row {
-    max-width: 100%;
     overflow-x: hidden;
 }
 
@@ -207,6 +206,7 @@ h2 {
     transform: translateX(0);
 
 }
+
 
 
 
