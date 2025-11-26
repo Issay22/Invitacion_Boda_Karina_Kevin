@@ -100,3 +100,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // plural
 
+document.addEventListener('DOMContentLoaded', () => {
+    const unaS = document.getElementById('ess');
+    const unaP = document.getElementById('es');
+    const npasesEl = document.getElementById('npases');
+
+    const actualizarTexto = () => {
+        if (parseInt(npasesEl.textContent) <= 1) {
+            unaS.textContent = '';
+            unaP.textContent = '';
+        } else {
+            unaS.textContent = 'es';
+            unaP.textContent = 's';
+        }
+    };
+    actualizarTexto();
+})
