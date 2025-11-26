@@ -48,54 +48,28 @@ document.addEventListener('DOMContentLoaded', () => {
 // https://issay22.github.io/Invitacion_Boda_Karina_Kevin/?invitado=REYNA
 
 async function loadInvitacion() {
-    try {
-        const response = await fetch('data.json');
+   
+    const response = await fetch('data.json');
+    const guestsData = await response.json();
 
-        if (!response.ok) {
-            throw new Error(`HTTP ${response.status} - ${response.statusText}`);
-        }
+    const urlParams = new URLSearchParams(window.location.search);
+    const guestCode = urlParams.get('invitado');
 
-        const guestsData = await response.json();
+    if (guestCode && guestsData[guestCode]) {
+        const guestInfo = guestsData[guestCode];
 
-        const urlParams = new URLSearchParams(window.location.search);
-        let guestCode = urlParams.get('invitado');
+        document.getElementById('nombreinvitado').textContent = guestInfo.nombre;
+        document.getElementById('npases').textContent = guestInfo.pases;
+        
+        document.getElementById('mensaje').textContent = guestInfo.mensajeEspecial;
 
-        if (guestCode) guestCode = guestCode.toUpperCase();
-
-        if (guestCode && guestsData[guestCode]) {
-            const guestInfo = guestsData[guestCode];
-
-            document.getElementById('nombreinvitado').textContent = guestInfo.nombre;
-            document.getElementById('npases').textContent = guestInfo.pases;
-            document.getElementById('mensaje').textContent = guestInfo.mensajeEspecial;
-
-            // actualizar pluralización inmediatamente
-            const unaS = document.getElementById('ess');
-            const unaP = document.getElementById('es');
-            const pases = parseInt(String(guestInfo.pases), 10) || 0;
-            if (unaS && unaP) {
-                if (pases <= 1) {
-                    unaS.textContent = '';
-                    unaP.textContent = '';
-                } else {
-                    unaS.textContent = 'es';
-                    unaP.textContent = 's';
-                }
-            }
-
-        } else {
-            document.getElementById('nombreinvitado').textContent = 'Estimado invitado, no estás identificado. Contáctanos por favor.';
-            document.getElementById('invitacionoracion').textContent = 'No identificado';
-        }
-
-    } catch (err) {
-        console.error('Error cargando invitaciones:', err);
-        const nombreEl = document.getElementById('nombreinvitado');
-        const invitacionEl = document.getElementById('invitacionoracion');
-        if (nombreEl) nombreEl.textContent = 'No se pudo cargar la invitación';
-        if (invitacionEl) invitacionEl.textContent = 'Error al cargar datos (revisa consola).';
+    } else {
+        document.getElementById('nombreinvitado').textContent = 'Estimado invitado no estas identificado, contáctanos por favor.';
+        document.getElementById('invitacionoracion').textContent = 'No identificado';
     }
 }
+
+document.addEventListener('DOMContentLoaded', loadInvitacion);
 
 
 
@@ -125,3 +99,4 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // plural
+
