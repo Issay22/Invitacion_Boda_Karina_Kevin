@@ -105,6 +105,11 @@ h2 {
     background-color: rgb(226, 57, 57);
 }
 
+.row {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .galeria-item {
     height: 350px; 
     overflow: hidden;
@@ -197,4 +202,5 @@ h2 {
     transform: translateX(0);
 
 }
+
 
