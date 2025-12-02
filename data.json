@@ -1,0 +1,67 @@
+{
+  "1": {
+    "nombre": "Familia Reyna",
+    "pases": 1,
+    "mensajeEspecial": "¡Estamos muy emocionados de verlos!"
+  },
+  "2": {
+    "nombre": "Familia Reyna",
+    "pases": 2,
+    "mensajeEspecial": "¡Estamos muy emocionados de verlos!"
+  },
+  "3": {
+    "nombre": "Familia Reyna",
+    "pases": 3,
+    "mensajeEspecial": "¡Estamos muy emocionados de verlos!"
+  }, 
+  "4": {
+    "nombre": "Familia Reyna",
+    "pases": 4,
+    "mensajeEspecial": "¡Estamos muy emocionados de verlos!"
+  },
+  "5": {
+    "nombre": "Familia Reyna",
+    "pases": 5,
+    "mensajeEspecial": "¡Estamos muy emocionados de verlos!"
+  },
+  "GUERRERO": {
+    "nombre": "Familia Guerrero",
+    "pases": 2,
+    "mensajeEspecial": "Gracias por acompañarnos en este día."
+  },
+  "1a": {
+    "nombre": "Blanca Ofelia Cortés Luna, Efren Guerrero Soler",
+    "pases": 2,
+    "mensajeEspecial": ""
+  },
+  "2a": {
+    "nombre": "Lourdes Soler, Magdaleno Guerrero",
+    "pases": 2,
+    "mensajeEspecial": ""
+  },
+  "3a": {
+    "nombre": "",
+    "pases": 2,
+    "mensajeEspecial": ""
+  },
+  "4a": {
+    "nombre": "Magnolia Cortés, Ofelia Cortés",
+    "pases": 2,
+    "mensajeEspecial": ""
+  },
+  "5a": {
+    "nombre": "",
+    "pases": 2,
+    "mensajeEspecial": ""
+  },
+  "6": {
+    "nombre": "",
+    "pases": 2,
+    "mensajeEspecial": ""
+  },
+  "7": {
+    "nombre": "",
+    "pases": 2,
+    "mensajeEspecial": ""
+  }
+}
