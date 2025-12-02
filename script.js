@@ -293,9 +293,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- carga todo ---
-    //loadInvitacion();
-    generarCamposInvitados(3, 'Prueba Nombre Invitado Principal'); 
-    actualizarTextoPorPases();
+    loadInvitacion();
+    // --- para ejemplos offline ---
+    //generarCamposInvitados(3, 'Prueba Nombre Invitado Principal'); 
+    //actualizarTextoPorPases();
 });
 
 //Reloj
@@ -367,4 +368,5 @@ document.addEventListener('DOMContentLoaded', () => {
     elementosAnimar.forEach(el => {
         observer.observe(el);
     });
+
 });
