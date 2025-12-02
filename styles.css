@@ -22,7 +22,7 @@ body{
 }
 
 #portada {
-    background-image: url('./img/uno.jpg');
+    background-image: url('./uno.jpg');
     width: 100%;
     max-width: 390px;
     height: 300px;
@@ -220,5 +220,6 @@ input{
 .animarAlBajar.is-visible {
     opacity: 1;
     transform: translateX(0);
+
 
 }
