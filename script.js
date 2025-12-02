@@ -207,7 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (guestCode && guestsData[guestCode]) {
                 const guestInfo = guestsData[guestCode];
 
-                if (elNombrePrincipal) elNombrePrincipal.textContent = guestInfo.nombre;
+                if (nomtituinvi) nomtituinvi.textContent = guestInfo.nombre;
 
                 document.getElementById('nomtituinvi').value = guestInfo.nombre;
                 document.getElementById('npases').textContent = guestInfo.pases; 
@@ -370,3 +370,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
