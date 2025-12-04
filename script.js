@@ -23,6 +23,29 @@ document.addEventListener('DOMContentLoaded', () => {
         abreFormSi.close();
         invitacionForm.reset();
     });
+    
+     // ---  Pural ---
+    function actualizarTextoPorPases(numPases) {
+    const ess = document.getElementById('ess');
+    const es = document.getElementById('es');
+    const essF = document.getElementById('essF');
+    const esF = document.getElementById('esF');
+
+    const pases = parseInt(numPases); 
+
+    if (pases === 1) {
+        es.textContent = '';
+        ess.textContent = '';
+        esF.textContent = '';
+        essF.textContent = '';
+    } else {
+        es.textContent = 'es';
+        ess.textContent = 'es';
+        esF.textContent = 'es';
+        essF.textContent = 'es';
+    }
+    }
+
 
     // ---  Preguntr antes de enviar el form ---
     btnEnviar.addEventListener('click', function(event) {
@@ -45,6 +68,9 @@ document.addEventListener('DOMContentLoaded', () => {
             // Si acepta se envía
             console.log("Confirmación aceptada, listos para enviar a Google Sheets...");
 
+            event.preventDefault();
+            toggleLoading(true);
+
             const confirmInput = document.getElementById('confirm');
             if (confirmInput) {
                 confirmInput.value = "Sí";
@@ -61,9 +87,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     throw new Error('Error de red al conectar con el Apps Script.');
                 }
                 return response.json(); 
-            })
-            .then(data => {
+            });
+
+            Promise.all([fetchPromise, crearPromesaDemora(tEspera)])
+                .then(([data]) => {
+
                 console.log('Respuesta de Google Sheets:', data);
+                toggleLoading(false);
+
                 if (data.result === 'success') {
                     alert('¡Asistencia confirmada con éxito! Gracias por tu respuesta.');
                     
@@ -78,11 +109,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 } else {
                     alert('Hubo un error al confirmar la asistencia. Inténtalo de nuevo o contacta al administrador.');
                     console.error('Error del Apps Script:', data.error);
+
+                    if (typeof abreFormSi !== 'undefined' && abreFormSi.showModal) {
+                            abreFormSi.showModal();
+                        }
                 }
             })
             .catch(error => {
                 console.error('Error al enviar los datos:', error);
+                toggleLoading(false);
                 alert('Error de conexión. Por favor, revisa tu conexión a internet e inténtalo de nuevo.');
+                if (typeof abreFormSi !== 'undefined' && abreFormSi.showModal) {
+                        abreFormSi.showModal();
+                    }
+            })
+            .finally(() => {
+                toggleLoading(false);
             });
         }
 
@@ -98,6 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
 
             console.log("Cancelación aceptada, enviando 'No' a Google Sheets...");
+            toggleLoading(true);
 
             const guestIdInput = document.getElementById('guestId');
             const guestIdValue = guestIdInput ? guestIdInput.value : '';
@@ -111,13 +154,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 body: formDataNo
             })
             .then(response => {
+                toggleLoading(false);
                 if (!response.ok) {
                     throw new Error('Error de red al conectar con el Apps Script.');
                 }
                 return response.json(); 
-            })
-            .then(data => {
+            });
+
+            Promise.all([fetchPromise, crearPromesaDemora(tEspera)])
+            .then(([data]) => {
+
                 console.log('Respuesta de Google Sheets (No Confirmar):', data);
+
                 if (data.result === 'success') {
                     
                     alert("Su cancelación se ha registrado correctamente. :'( ");
@@ -134,12 +182,34 @@ document.addEventListener('DOMContentLoaded', () => {
             })
             .catch(error => {
                 console.error('Error al enviar los datos:', error);
+                toggleLoading(false);
                 alert('Error de conexión. Por favor, revisa tu conexión a internet e inténtalo de nuevo.');
+            })
+            .finally(() => {
+                toggleLoading(false);
             });
         }
     });
 
-    //Local storage para las respuestas?
+    // Pantalla de carga
+    const loadingOverlay = document.getElementById('loadingOverlay');
+    const elBody = document.body;
+
+    function toggleLoading(show) {
+        loadingOverlay.style.display = show ? 'flex' : 'none';
+        if (show) {
+            elBody.style.overflowY = 'hidden';
+            elBody.style.pointerEvents = 'none';
+        } else {
+            elBody.style.overflowY = '';
+            elBody.style.pointerEvents = '';
+        }
+    }
+
+    const tEspera = 500;
+    const crearPromesaDemora = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+    // Local storage para las respuestas?
 
     function guardarEstadoConfirmacion(estado) {
         const guestIdInput = document.getElementById('guestId');
@@ -212,6 +282,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 }
                 
+                
                 document.getElementById('npases').textContent = guestInfo.pases; 
                 document.getElementById('npasesF').textContent = guestInfo.pases; 
                 document.getElementById('mensaje').textContent = guestInfo.mensajeEspecial; 
@@ -238,7 +309,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     essF.textContent = 'es';
                 }
 
-            } else {
+            }else {
                 const inviPass1 = document.getElementById('inviPass1');
                 if (inviPass1) {
                     inviPass1.textContent = 'Estimado invitado, no estás identificado. Contáctanos por favor.';
@@ -398,4 +469,3 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
-
