@@ -127,7 +127,6 @@ input{
     align-items: center;
     z-index: 10000;
     text-align: center;
-    display: flex;
     align-content: center;
 }
 
@@ -240,4 +239,5 @@ input{
 
 
 }
+
 
