@@ -25,18 +25,26 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
      // ---  Pural ---
-    function actualizarTextoPorPases() {
-        const npases = document.getElementById('npases').textContent;
-        const ess = document.getElementById('ess');
-        const es = document.getElementById('es');
-        if (parseInt(npases) === 1) {
-            if (ess) ess.style.display = 'none';
-            if (es) es.style.display = 'none';
-        } else {
-            if (ess) ess.style.display = 'inline';
-            if (es) es.style.display = 'inline';
-        }
+    function actualizarTextoPorPases(numPases) {
+    const ess = document.getElementById('ess');
+    const es = document.getElementById('es');
+    const essF = document.getElementById('essF');
+    const esF = document.getElementById('esF');
+
+    const pases = parseInt(numPases); 
+
+    if (pases === 1) {
+        if (ess) ess.style.display = 'none'; 
+        if (es) es.style.display = 'none';
+        if (essF) essF.style.display = 'none'; 
+        if (esF) esF.style.display = 'none';
+    } else {
+        if (ess) ess.style.display = 'inline';
+        if (es) es.style.display = 'inline';
+        if (essF) essF.style.display = 'inline';
+        if (esF) esF.style.display = 'inline';
     }
+}
 
 
     // ---  Preguntr antes de enviar el form ---
@@ -228,10 +236,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 
                 document.getElementById('npases').textContent = guestInfo.pases; 
+                ocument.getElementById('npasesF').textContent = guestInfo.pases; 
                 document.getElementById('mensaje').textContent = guestInfo.mensajeEspecial; 
                 document.getElementById('guestId').value = guestCode;
+
                 generarCamposInvitados(guestInfo.pases, guestInfo.invi1); 
-                actualizarTextoPorPases();
+                actualizarTextoPorPases(guestInfo.pases);
                 cargarEstadoConfirmacion();
 
             } else {
