@@ -23,29 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
         abreFormSi.close();
         invitacionForm.reset();
     });
-    
-     // ---  Pural ---
-    function actualizarTextoPorPases(numPases) {
-    const ess = document.getElementById('ess');
-    const es = document.getElementById('es');
-    const essF = document.getElementById('essF');
-    const esF = document.getElementById('esF');
-
-    const pases = parseInt(numPases); 
-
-    if (pases === 1) {
-        es.textContent = '';
-        ess.textContent = '';
-        esF.textContent = '';
-        essF.textContent = '';
-    } else {
-        es.textContent = 'es';
-        ess.textContent = 'es';
-        esF.textContent = 'es';
-        essF.textContent = 'es';
-    }
-}
-
 
     // ---  Preguntr antes de enviar el form ---
     btnEnviar.addEventListener('click', function(event) {
@@ -235,15 +212,31 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 }
                 
-                
                 document.getElementById('npases').textContent = guestInfo.pases; 
-                ocument.getElementById('npasesF').textContent = guestInfo.pases; 
+                document.getElementById('npasesF').textContent = guestInfo.pases; 
                 document.getElementById('mensaje').textContent = guestInfo.mensajeEspecial; 
                 document.getElementById('guestId').value = guestCode;
 
                 generarCamposInvitados(guestInfo.pases, guestInfo.invi1); 
-                actualizarTextoPorPases(guestInfo.pases);
                 cargarEstadoConfirmacion();
+
+                const pases = guestInfo.pases;
+                const ess = document.getElementById('ess');
+                const es = document.getElementById('es');
+                const essF = document.getElementById('essF');
+                const esF = document.getElementById('esF');
+
+                if (pases === 1) {
+                    es.textContent = '';
+                    ess.textContent = '';
+                    esF.textContent = '';
+                    essF.textContent = '';
+                } else {
+                    es.textContent = 'es';
+                    ess.textContent = 'es';
+                    esF.textContent = 'es';
+                    essF.textContent = 'es';
+                }
 
             } else {
                 const inviPass1 = document.getElementById('inviPass1');
@@ -405,3 +398,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
