@@ -207,20 +207,44 @@ document.addEventListener('DOMContentLoaded', () => {
             if (guestCode && guestsData[guestCode]) {
                 const guestInfo = guestsData[guestCode];
 
-                if (nomtituinvi) nomtituinvi.textContent = guestInfo.nombre;
+                for (let i = 1; i <= 6; i++) {
+                    const inviKey = `invi${i}`;
+                    const inviElementId = `inviPass${i}`;
+                    
+                    const inviName = guestInfo[inviKey];
+                    const inviElement = document.getElementById(inviElementId);
 
-                document.getElementById('nomtituinvi').value = guestInfo.nombre;
+                    if (inviName && inviElement) {
+                        inviElement.textContent = inviName;
+                        
+                        if (i === 1) {
+                            const principalInput = document.getElementById('txtnombre1'); 
+                            if(principalInput) principalInput.value = inviName;
+                        }
+
+                    } else if (inviElement) {
+                         inviElement.style.display = 'none';
+                    }
+                }
+                
                 document.getElementById('npases').textContent = guestInfo.pases; 
                 document.getElementById('mensaje').textContent = guestInfo.mensajeEspecial; 
-
                 document.getElementById('guestId').value = guestCode;
-                
-                generarCamposInvitados(guestInfo.pases, guestInfo.nombre);
+                generarCamposInvitados(guestInfo.pases, guestInfo.invi1); 
                 actualizarTextoPorPases();
                 cargarEstadoConfirmacion();
 
             } else {
-                if (elNombrePrincipal) elNombrePrincipal.textContent = 'Estimado invitado no estas identificado, contáctanos por favor.';
+                const inviPass1 = document.getElementById('inviPass1');
+                if (inviPass1) {
+                    inviPass1.textContent = 'Estimado invitado, no estás identificado. Contáctanos por favor.';
+                }
+                for (let i = 2; i <= 6; i++) {
+                    const inviElement = document.getElementById(`inviPass${i}`);
+                    if (inviElement) {
+                        inviElement.style.display = 'none';
+                    }
+                }
             }
         } catch (error) {
             console.error("Error al cargar los datos de invitación:", error);
@@ -268,7 +292,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function generarCamposInvitados(numPases, nombrePrincipal) {
         camposContainer.innerHTML = '';
 
-        const pasesAImprimir = Math.min(numPases, 5); // Limite a 5 invitacions
+        const pasesAImprimir = Math.min(numPases, 6); // Limite a 6 invitacions
 
         for (let i = 1; i <= pasesAImprimir; i++) {
             const nuevoCampoSection = campoTemplate.cloneNode(true);
@@ -370,4 +394,3 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
-
