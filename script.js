@@ -33,18 +33,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const pases = parseInt(numPases); 
 
-    if (pases === 1) {
-        if (ess) ess.style.display = 'none'; 
-        if (es) es.style.display = 'none';
-        if (essF) essF.style.display = 'none'; 
-        if (esF) esF.style.display = 'none';
+     if (pases === 1) {
+        es.textContent = '';
+        ess.textContent = '';
+        esF.textContent = '';
+        essF.textContent = '';
     } else {
-        if (ess) ess.style.display = 'inline';
-        if (es) es.style.display = 'inline';
-        if (essF) essF.style.display = 'inline';
-        if (esF) esF.style.display = 'inline';
+        es.textContent = 'es';
+        ess.textContent = 'es';
+        esF.textContent = 'es';
+        essF.textContent = 'es';
     }
-}
 
 
     // ---  Preguntr antes de enviar el form ---
@@ -235,13 +234,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 }
                 
-                document.getElementById('npases').textContent = guestInfo.pases; 
-                ocument.getElementById('npasesF').textContent = guestInfo.pases; 
+                let numDePases = guestInfo.pases;
+                
+                document.getElementById('npases').textContent = numDePases; 
+                ocument.getElementById('npasesF').textContent = numDePases; 
                 document.getElementById('mensaje').textContent = guestInfo.mensajeEspecial; 
                 document.getElementById('guestId').value = guestCode;
 
                 generarCamposInvitados(guestInfo.pases, guestInfo.invi1); 
-                actualizarTextoPorPases(guestInfo.pases);
+                actualizarTextoPorPases(numDePases);
                 cargarEstadoConfirmacion();
 
             } else {
@@ -404,3 +405,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
