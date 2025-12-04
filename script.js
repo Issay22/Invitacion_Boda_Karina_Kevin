@@ -234,15 +234,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 }
                 
-                let numDePases = guestInfo.pases;
-                
-                document.getElementById('npases').textContent = numDePases; 
-                ocument.getElementById('npasesF').textContent = numDePases; 
+                document.getElementById('npases').textContent = guestInfo.pases; 
+                ocument.getElementById('npasesF').textContent = guestInfo.pases; 
                 document.getElementById('mensaje').textContent = guestInfo.mensajeEspecial; 
                 document.getElementById('guestId').value = guestCode;
 
                 generarCamposInvitados(guestInfo.pases, guestInfo.invi1); 
-                actualizarTextoPorPases(numDePases);
+                actualizarTextoPorPases(guestInfo.pases);
                 cargarEstadoConfirmacion();
 
             } else {
@@ -405,4 +403,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
