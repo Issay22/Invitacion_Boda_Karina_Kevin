@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             const formData = new FormData(invitacionForm);
 
-            fetch(appScriptURL, {
+            const fetchPromise = fetch(appScriptURL, {
                 method: 'POST', 
                 body: formData
             })
@@ -149,12 +149,11 @@ document.addEventListener('DOMContentLoaded', () => {
             formDataNo.append('guestId', guestIdValue); 
             formDataNo.append('confirm', 'No'); 
             
-            fetch(appScriptURL, {
+            const fetchPromise = fetch(appScriptURL, {
                 method: 'POST', 
                 body: formDataNo
             })
             .then(response => {
-                toggleLoading(false);
                 if (!response.ok) {
                     throw new Error('Error de red al conectar con el Apps Script.');
                 }
@@ -282,13 +281,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 }
                 
-                
+                document.getElementById('guestId').value = guestCode;
                 document.getElementById('npases').textContent = guestInfo.pases; 
                 document.getElementById('npasesF').textContent = guestInfo.pases; 
                 document.getElementById('mensaje').textContent = guestInfo.mensajeEspecial; 
                 document.getElementById('guestId').value = guestCode;
 
-                generarCamposInvitados(guestInfo.pases, guestInfo.invi1); 
+                generarCamposInvitados(guestInfo); 
                 cargarEstadoConfirmacion();
 
                 const pases = guestInfo.pases;
@@ -364,10 +363,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     //----------------------------------------------------------- BORRAR -------------------------------------------------------------------
 
-    function generarCamposInvitados(numPases, nombrePrincipal) {
+    function generarCamposInvitados(guestInfo) {
+        const numPases = guestInfo.pases; 
+        
         camposContainer.innerHTML = '';
 
-        const pasesAImprimir = Math.min(numPases, 6); // Limite a 6 invitacions
+        const pasesAImprimir = Math.min(numPases, 6);
 
         for (let i = 1; i <= pasesAImprimir; i++) {
             const nuevoCampoSection = campoTemplate.cloneNode(true);
@@ -376,15 +377,17 @@ document.addEventListener('DOMContentLoaded', () => {
             const inputElement = nuevoCampoSection.querySelector('input');
             const labelElement = nuevoCampoSection.querySelector('label');
 
+            const inviKey = `invi${i}`;
+            const inviName = guestInfo[inviKey];
+
             inputElement.id = `txtnombre${i}`; 
             inputElement.name = `invitado${i}`; 
             
             labelElement.setAttribute('for', `txtnombre${i}`); 
             labelElement.textContent = `Invitado ${i}`;
 
-            //rellenar el primer campo al nombre del invitado
-            if (i === 1 && nombrePrincipal) {
-                inputElement.value = nombrePrincipal;
+            if (inviName) {
+                inputElement.value = inviName;
             }
 
             camposContainer.appendChild(nuevoCampoSection);
