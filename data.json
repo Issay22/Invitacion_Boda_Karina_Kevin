@@ -1,5 +1,167 @@
 {
   "1": {
+    "invi1": "Blanca Cortés",
+    "invi2": "Efren Guerrero",
+    "pases": 2,
+    "mensajeEspecial": "¡Será un honor compartir este día tan especial con ustedes!"
+  },
+  "2": {
+    "invi1": "Lourdes Soler",
+    "invi2": "Magdaleno Guerrero",
+    "pases": 2,
+    "mensajeEspecial": "¡Será un honor compartir este día tan especial con ustedes!"
+  },
+  "3": {
+    "invi1": "Efren 2",
+    "invi2": "Efren 3",
+    "pases": 2,
+    "mensajeEspecial": "¡Los esperamos para celebrar juntos este gran momento!"
+  },
+  "4": {
+    "invi1": "Ofelia Cortés",
+    "invi2": "Magnolia Cortés",
+    "pases": 2,
+    "mensajeEspecial": "¡Su presencia hará nuestro día aún más especial!"
+  },
+  "5": {
+    "invi1": "Leonardo Cortés",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Será una alegría enorme contar con ustedes en nuestra boda!"
+  },
+  "6": {
+    "invi1": "Aldair Cortés",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Nos encantaría que nos acompañen en nuestra celebración!"
+  },
+  "7": {
+    "invi1": "Daniel Cortés",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Será un honor compartir este día tan especial con ustedes!"
+  },
+  "8": {
+    "invi1": "Leo. Cortés",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Su presencia hará nuestro día aún más especial!"
+  },
+  "9": {
+    "invi1": "Samantha Cortés",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Los esperamos para celebrar juntos este gran momento!"
+  },
+  "10": {
+    "invi1": "Yarelli Cortés",
+    "invi2": "Juan Cazares",
+    "pases": 2,
+    "mensajeEspecial": "¡Nos encantaría que nos acompañen en nuestra celebración!"
+  },
+  "11": {
+    "invi1": "Leonardo A. Cortés",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Será una alegría enorme contar con ustedes en nuestra boda!"
+  },
+  "12": {
+    "invi1": "Eduardo Luna",
+    "invi2": "Dayana Puga",
+    "pases": 2,
+    "mensajeEspecial": "¡Nos encantaría que nos acompañen en nuestra celebración!"
+  },
+  "13": {
+    "invi1": "Ximena CV",
+    "invi2": "Jassiel Medina",
+    "pases": 2,
+    "mensajeEspecial": "¡Los esperamos para celebrar juntos este gran momento!"
+  },
+  "14": {
+    "invi1": "Carlos Estrada",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Será un honor compartir este día tan especial con ustedes!"
+  },
+  "15": {
+    "invi1": "Adonai Galván",
+    "invi2": "Andrea Castellanos",
+    "pases": 2,
+    "mensajeEspecial": "¡Su presencia hará nuestro día aún más especial!"
+  },
+  "16": {
+    "invi1": "Fausto Hernández",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Será una alegría enorme contar con ustedes en nuestra boda!"
+  },
+  "17": {
+    "invi1": "Mauricio Reyes",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Nos encantaría que nos acompañen en nuestra celebración!"
+  },
+  "18": {
+    "invi1": "Kevin Cabrera",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Los esperamos para celebrar juntos este gran momento!"
+  },
+  "19": {
+    "invi1": "Luis Garcia",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Será un honor compartir este día tan especial con ustedes!"
+  },
+  "20": {
+    "invi1": "Aldo Gonzáles",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Su presencia hará nuestro día aún más especial!"
+  },
+  "21": {
+    "invi1": "Aaron Padilla",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Celebremos juntos el comienzo de nuestra vida como esposos!"
+  },
+  "22": {
+    "invi1": "Juan José Ortuño",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Su compañía será el mejor regalo en nuestro día especial!"
+  },
+  "23": {
+    "invi1": "Alfredo García",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Esperamos compartir nuestra felicidad con ustedes!"
+  },
+  "24": {
+    "invi1": "Andrés Mendoza",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Nos haría muy felices que nos acompañen!"
+  },
+  "25": {
+    "invi1": "David Mojica",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Guardaremos un lugar especial para ustedes!"
+  },
+  "26": {
+    "invi1": "Jasmín Gonz",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Compartan con nosotros la alegría de nuestro amor!"
+  },
+  "27": {
+    "invi1": "Ruben Juache",
+    "invi2": "Madheley Lucatero",
+    "pases": 2,
+    "mensajeEspecial": "¡Su presencia hará nuestra boda aún más memorable!"
+  },
+  "28": {
     "invi1": "María de Jesús Reyna",
     "invi2": "Soledad Reyna",
     "invi3": "Antonio Rayas",
@@ -7,31 +169,311 @@
     "invi5": "Miguel Angel Quiroga",
     "invi6": "Juan Pablo Martínez",
     "pases": 6,
-    "mensajeEspecial": "¡Estamos muy emocionados de verlos!"
+    "mensajeEspecial": "¡Será maravilloso celebrar rodeados de toda la familia!"
   },
-  "2": {
-    "invi1": "Familia Reyna",
-    "pases": 2,
-    "mensajeEspecial": "¡Estamos muy emocionados de verlos!"
-  },
-  "3": {
-    "invi1": "Familia Reyna",
-    "pases": 3,
-    "mensajeEspecial": "¡Estamos muy emocionados de verlos!"
-  }, 
-  "4": {
-    "invi1": "Familia Reyna",
-    "pases": 4,
-    "mensajeEspecial": "¡Estamos muy emocionados de verlos!"
-  },
-  "5": {
-    "invi1": "Familia Reyna",
+  "29": {
+    "invi1": "Joel Reyna",
+    "invi2": "Martha Rosa Salinas",
+    "extra": "invitado + 1",
+    "extra1": "invitado + 1",
+    "extra2": "invitado + 1",
     "pases": 5,
-    "mensajeEspecial": "¡Estamos muy emocionados de verlos!"
+    "mensajeEspecial": "¡Los esperamos para crear juntos recuerdos inolvidables!"
   },
-  "6": {
-    "invi1": "Familia Reyna",
-    "pases": 6,
-    "mensajeEspecial": "¡Estamos muy emocionados de verlos!"
+  "30": {
+    "invi1": "Isabel Reyna",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Compartan con nosotros este momento lleno de amor!"
+  },
+  "31": {
+    "invi1": "Patricia Reyna",
+    "invi2": "Eduardo Gómez",
+    "invi3": "Juan Jesús Gómez",
+    "invi4": "María Gómez",
+    "invi5": "Patricia Gómez",
+    "pases": 5,
+    "mensajeEspecial": "¡Compartan con nosotros este momento lleno de amor!"
+  },
+  "32": {
+    "invi1": "Francisca Vazquéz",
+    "invi2": "Angelina Ramírez",
+    "invi3": "Luciano Guerrero",
+    "invi4": "Oscar Guerrero",
+    "invi5": "Montserrat Guerrero",
+    "pases": 5,
+    "mensajeEspecial": "¡Esperamos contar con su presencia en nuestro día especial!"
+  },
+  "33": {
+    "invi1": "Carlos Ramírez",
+    "invi2": "Liliana Campos",
+    "pases": 2,
+    "mensajeEspecial": "¡Celebremos juntos el inicio de nuestra vida matrimonial!"
+  },
+  "34": {
+    "invi1": "Marco Ramírez",
+    "invi2": "Mariana Ruíz",
+    "pases": 2,
+    "mensajeEspecial": "¡Su compañía hará nuestra boda aún más especial!"
+  },
+  "35": {
+    "invi1": "Juana Meza",
+    "invi2": "Diana Ramírez",
+    "invi3": "Jonathan Medina",
+    "invi4": "Luis Ramírez",
+    "invi5": "Mari de Ramírez",
+    "pases": 5,
+    "mensajeEspecial": "¡Nos encantaría que fueran parte de nuestra celebración!"
+  },
+  "36": {
+    "invi1": "Carmen Rámirez",
+    "invi2": "Francisco Gallardo",
+    "pases": 2,
+    "mensajeEspecial": "¡Compartan nuestra felicidad en este día tan importante!"
+  },
+  "37": {
+    "invi1": "José Luis Ramírez",
+    "invi2": "Blanca Vallejo",
+    "pases": 2,
+    "mensajeEspecial": "¡Esperamos verlos en nuestra boda!"
+  },
+  "38": {
+    "invi1": "Francisca Ramírez",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡¡Esperamos verlos en nuestra boda!"
+  },
+  "39": {
+    "invi1": "Filomena Ramírez",
+    "invi2": "Salvador Martínez",
+    "pases": 2,
+    "mensajeEspecial": "¡Los esperamos para compartir nuestra alegría!"
+  },
+  "40": {
+    "invi1": "Lula Ramírez",
+    "invi2": "Miguel Gallardo",
+    "pases": 2,
+    "mensajeEspecial": "¡Los esperamos para compartir nuestra alegría!"
+  },
+  "41": {
+    "invi1": "Andrés Cesar Rojas",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Será un honor tenerlos en nuestra celebración!"
+  },
+  "42": {
+    "invi1": "Angel Ramírez",
+    "invi2": "Socorro Reyna",
+    "invi3": "Luz Ramírez",
+    "invi4": "Adrián Padilla",
+    "pases": 4,
+    "mensajeEspecial": "¡Compartan con nosotros este momento único!"
+  },
+  "43": {
+    "invi1": "Josué Gómez",
+    "invi2": "Daniela Reyna",
+    "invi3": "Daniel Gómez",
+    "invi4": "Santiago Gómez",
+    "invi5": "Matías Gómez",
+    "pases": 5,
+    "mensajeEspecial": "¡Esperamos celebrar juntos nuestra unión!"
+  },
+  "44": {
+    "invi1": "Viridiana Garavito",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Esperamos celebrar juntos nuestra unión!"
+  },
+  "45": {
+    "invi1": "Laura Salas",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Nos haría muy felices que nos acompañen!"
+  },
+  "46": {
+    "invi1": "Ricardo Ordaz",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Guardaremos un lugar especial para ustedes!"
+  },
+  "47": {
+    "invi1": "Paola García",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Compartan con nosotros la alegría de nuestro amor!"
+  },
+  "48": {
+    "invi1": "Gonzalo Ramírez",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Su presencia hará nuestra boda aún más memorable!"
+  },
+  "49": {
+    "invi1": "Nallely Gutiérrez",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Será maravilloso celebrar rodeados de amigos queridos!"
+  },
+  "50": {
+    "invi1": "Alexa Martínez",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Los esperamos para crear juntos recuerdos inolvidables!"
+  },
+  "51": {
+    "invi1": "Claudia Ponce",
+    "pases": 1,
+    "mensajeEspecial": "¡Compartan con nosotros este momento lleno de amor!"
+  },
+  "52": {
+    "invi1": "Fátima Rico",
+    "pases": 1,
+    "mensajeEspecial": "¡Su amistad es invaluable para nosotros!"
+  },
+  "53": {
+    "invi1": "Kiev Díaz",
+    "pases": 1,
+    "mensajeEspecial": "¡Esperamos contar con su presencia en nuestro día especial!"
+  },
+  "54": {
+    "invi1": "René Funez",
+    "pases": 1,
+    "mensajeEspecial": "¡Celebremos juntos el inicio de nuestra vida matrimonial!"
+  },
+  "55": {
+    "invi1": "Raúl Pierdra",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Su compañía hará nuestra boda aún más especial!"
+  },
+  "56": {
+    "invi1": "Uriel García",
+    "pases": 1,
+    "mensajeEspecial": "¡Nos encantaría que fueran parte de nuestra celebración!"
+  },
+  "57": {
+    "invi1": "Alejandra Nuñez",
+    "invi2": "David González",
+    "pases": 2,
+    "mensajeEspecial": "¡Compartan nuestra felicidad en este día tan importante!"
+  },
+  "58": {
+    "invi1": "Carolina Hernández",
+    "invi2": "Adrián Méndez",
+    "pases": 2,
+    "mensajeEspecial": "¡Esperamos verlos en nuestra boda!"
+  },
+  "59": {
+    "invi1": "Mila",
+    "pases": 1,
+    "mensajeEspecial": "¡Su presencia será nuestro mejor regalo!"
+  },
+  "60": {
+    "invi1": "Michelle Durán",
+    "pases": 1,
+    "mensajeEspecial": "¡Celebremos juntos el amor que nos une!"
+  },
+  "61": {
+    "invi1": "Lucero Medina",
+    "pases": 1,
+    "mensajeEspecial": "¡Los esperamos para compartir nuestra alegría!"
+  },
+  "62": {
+    "invi1": "Iván Sixtos",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Será un honor tenerlos en nuestra celebración!"
+  },
+  "63": {
+    "invi1": "Magda Rangel",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Compartan con nosotros este momento único!"
+  },
+  "64": {
+    "invi1": "Adrián Rios",
+    "extra": "invitado + 1",
+    "extra1": "invitado + 1",
+    "extra2": "invitado + 1",
+    "pases": 4,
+    "mensajeEspecial": "¡Su amistad significa mucho para nosotros y esperamos celebrar juntos!"
+  },
+  "65": {
+    "invi1": "Miriam Serrano",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Esperamos celebrar juntos nuestra unión!"
+  },
+  "66": {
+    "invi1": "Yessenia Tapia",
+    "invi2": "Estrella Castro",
+    "pases": 2,
+    "mensajeEspecial": "¡Nos haría muy felices que nos acompañen!"
+  },
+  "67": {
+    "invi1": "Daniel García",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Guardaremos un lugar especial para ustedes!"
+  },
+  "68": {
+    "invi1": "Martín Chávez",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Compartan con nosotros la alegría de nuestro amor!"
+  },
+  "69": {
+    "invi1": "Haide Guerrero",
+    "invi2": "Victor Medina",
+    "pases": 2,
+    "mensajeEspecial": "¡Su presencia hará nuestra boda aún más memorable!"
+  },
+  "70": {
+    "invi1": "Oscar Arredondo",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Será maravilloso celebrar rodeados de amigos queridos!"
+  },
+  "71": {
+    "invi1": "Ana Cuevas",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Los esperamos para crear juntos recuerdos inolvidables!"
+  },
+  "72": {
+    "invi1": "Adriana Rodríguez",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Compartan con nosotros este momento lleno de amor!"
+  },
+  "73": {
+    "invi1": "Enrique Rocha",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Su amistad es invaluable para nosotros!"
+  },
+  "74": {
+    "invi1": "Lalo",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Esperamos contar con su presencia en nuestro día especial!"
+  },
+  "75": {
+    "invi1": "Ivonne Buenrostro",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Celebremos juntos el inicio de nuestra vida matrimonial!"
+  },
+  "76": {
+    "invi1": "Denisse López",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Su compañía hará nuestra boda aún más especial!"
+  },
+  "77": {
+    "invi1": "Yorch",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Nos encantaría que fueran parte de nuestra celebración!"
   }
 }
