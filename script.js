@@ -1,2 +1,451 @@
-const _0x5ecd5d=_0x542d;function _0x542d(_0xe39010,_0x352b45){_0xe39010=_0xe39010-0xfd;const _0x4979f1=_0x4979();let _0x542d45=_0x4979f1[_0xe39010];return _0x542d45;}function _0x4979(){const _0x157ffe=['flex','floor','Invitado\x20','camposInvitadosContainer','Error\x20de\x20conexión.\x20Por\x20favor,\x20revisa\x20tu\x20conexión\x20a\x20internet\x20e\x20inténtalo\x20de\x20nuevo.','invitado','undefined','0px','pointerEvents','Error\x20del\x20Apps\x20Script:','campoTemplate','Memoria\x20local\x20de\x20la\x20confirmación\x20borrada\x20para\x20el\x20invitado:\x20','isIntersecting','result','click','\x27\x20eliminada\x20de\x20localStorage.','Estado\x20\x27','Error\x20de\x20red\x20al\x20conectar\x20con\x20el\x20Apps\x20Script.','399120gTvZsY','style','mensajeEspecial','then','success','POST','invi','observe','36ftqvJk','json','log','nombreinvitado','confirmado','forEach','155kWzqMA','Ya\x20confirmaste\x20tu\x20inasistencia','\x27\x20guardado\x20para\x20el\x20invitado:\x20','¿Estás\x20seguro\x20de\x20que\x20deseas\x20confirmar\x20la\x20asistencia\x20con\x20estos\x20nombres?','mensaje','invitacionForm','unobserve','innerHTML','guestId','txtnombre','location','Estado\x20guardado\x20encontrado:\x20','Hubo\x20un\x20error\x20al\x20confirmar\x20la\x20asistencia.\x20Inténtalo\x20de\x20nuevo\x20o\x20contacta\x20al\x20administrador.','ess','textContent','3850431BFnxdR','removeItem','reset','DOMContentLoaded','No\x20puedo\x20asistir','Error\x20al\x20cargar\x20los\x20datos\x20de\x20invitación:','confirmStatus_','inviPass1','disabled','dia','getItem','querySelectorAll','npasesF','seg','appendChild','1289218KydTwS','3604880mwyFkh','Confirmación\x20aceptada,\x20listos\x20para\x20enviar\x20a\x20Google\x20Sheets...','preventDefault','getElementById','display','inviPass','confirmoModal','value','¡Sí\x20Confirmo!','overflowY','Cancelación\x20aceptada,\x20enviando\x20\x27No\x27\x20a\x20Google\x20Sheets...','btn-si-enviar','Respuesta\x20de\x20Google\x20Sheets:','npases','4105857TdzzQz','No\x20se\x20ha\x20podido\x20obtener\x20el\x20guestId\x20para\x20resetear\x20la\x20memoria.','Su\x20cancelación\x20se\x20ha\x20registrado\x20correctamente.\x20:\x27(\x20','catch','body','padStart','¡Asistencia\x20confirmada\x20con\x20éxito!\x20Gracias\x20por\x20tu\x20respuesta.','append','cancelado','error','none','siconfirmo','https://script.google.com/macros/s/AKfycbzpS2DzaZ6NvphaTysjo0gyK5ALV-0b9GHvTazhnCfxTmG8jC6YYEgDjamfecEr_kE/exec','Error\x20al\x20enviar\x20los\x20datos:','Clave\x20\x27','data.json','now','loadingOverlay','Asistencia\x20Confirmada','addEventListener','classList','min','pases','txtnombre1','2tteDpm','all','add','GÓ!','.\x20Aplicando\x20cambios...','finally','querySelector','confirm','Estimado\x20invitado,\x20no\x20estás\x20identificado.\x20Contáctanos\x20por\x20favor.','cloneNode','Ya\x20confirmaste\x20tu\x20asistencia','.animarAlBajar','5426070WXJort','close','showModal','setItem','38252dRBCqV'];_0x4979=function(){return _0x157ffe;};return _0x4979();}(function(_0x4007ba,_0x5ebb91){const _0xe84902=_0x542d,_0xefdb25=_0x4007ba();while(!![]){try{const _0x818821=parseInt(_0xe84902(0x10e))/0x1+parseInt(_0xe84902(0x135))/0x2*(-parseInt(_0xe84902(0xff))/0x3)+parseInt(_0xe84902(0x145))/0x4*(-parseInt(_0xe84902(0x166))/0x5)+-parseInt(_0xe84902(0x158))/0x6+-parseInt(_0xe84902(0x11d))/0x7+-parseInt(_0xe84902(0x10f))/0x8+-parseInt(_0xe84902(0x160))/0x9*(-parseInt(_0xe84902(0x141))/0xa);if(_0x818821===_0x5ebb91)break;else _0xefdb25['push'](_0xefdb25['shift']());}catch(_0x1803e7){_0xefdb25['push'](_0xefdb25['shift']());}}}(_0x4979,0xbd763));const appScriptURL=_0x5ecd5d(0x129);document[_0x5ecd5d(0x130)](_0x5ecd5d(0x102),()=>{const _0x313d7a=_0x5ecd5d,_0x375ac8=document['getElementById'](_0x313d7a(0x128)),_0x520420=document['getElementById']('cerrarModal'),_0x6233ed=document['getElementById'](_0x313d7a(0x115)),_0x1eadfb=document[_0x313d7a(0x112)]('btn-no-enviar'),_0x186050=document[_0x313d7a(0x112)](_0x313d7a(0x149)),_0x4005a7=document[_0x313d7a(0x112)](_0x313d7a(0x150)),_0x45ab09=document['getElementById'](_0x313d7a(0x16b)),_0x232bff=document[_0x313d7a(0x112)](_0x313d7a(0x163)),_0x1268e1=document[_0x313d7a(0x112)](_0x313d7a(0x11a));_0x375ac8[_0x313d7a(0x130)](_0x313d7a(0x154),()=>{const _0x3c1355=_0x313d7a;_0x6233ed[_0x3c1355(0x143)](),_0x6233ed['focus']();}),_0x520420['addEventListener'](_0x313d7a(0x154),()=>{const _0x5eb38e=_0x313d7a;_0x6233ed[_0x5eb38e(0x142)](),_0x45ab09[_0x5eb38e(0x101)]();});function _0x102ec8(_0x207cd4){const _0x51f24e=_0x313d7a,_0x2deb1c=document['getElementById']('ess'),_0x5648ab=document['getElementById']('es'),_0x599e37=document[_0x51f24e(0x112)]('essF'),_0x36f232=document[_0x51f24e(0x112)]('esF'),_0x203a36=parseInt(_0x207cd4);_0x203a36===0x1?(_0x5648ab[_0x51f24e(0xfe)]='',_0x2deb1c[_0x51f24e(0xfe)]='',_0x36f232[_0x51f24e(0xfe)]='',_0x599e37[_0x51f24e(0xfe)]=''):(_0x5648ab[_0x51f24e(0xfe)]='es',_0x2deb1c[_0x51f24e(0xfe)]='es',_0x36f232['textContent']='es',_0x599e37[_0x51f24e(0xfe)]='es');}_0x1268e1[_0x313d7a(0x130)](_0x313d7a(0x154),function(_0x2767d9){const _0x3054c7=_0x313d7a;_0x2767d9[_0x3054c7(0x111)]();typeof _0x6233ed!==_0x3054c7(0x14c)&&_0x6233ed[_0x3054c7(0x142)]&&_0x6233ed[_0x3054c7(0x142)]();const _0xccf735=confirm(_0x3054c7(0x169));if(!_0xccf735)typeof _0x6233ed!==_0x3054c7(0x14c)&&_0x6233ed[_0x3054c7(0x143)]&&_0x6233ed[_0x3054c7(0x143)]();else{console[_0x3054c7(0x162)](_0x3054c7(0x110)),_0x2767d9[_0x3054c7(0x111)](),_0x3d3554(!![]);const _0x545cb8=document['getElementById'](_0x3054c7(0x13c));_0x545cb8&&(_0x545cb8[_0x3054c7(0x116)]='Sí');const _0x3576d=new FormData(_0x45ab09),_0x324046=fetch(appScriptURL,{'method':_0x3054c7(0x15d),'body':_0x3576d})['then'](_0x363f2b=>{const _0x248a8c=_0x3054c7;if(!_0x363f2b['ok'])throw new Error(_0x248a8c(0x157));return _0x363f2b[_0x248a8c(0x161)]();});Promise[_0x3054c7(0x136)]([_0x324046,_0xf9938d(_0x22a026)])[_0x3054c7(0x15b)](([_0x28bd9a])=>{const _0x1351fd=_0x3054c7;console['log'](_0x1351fd(0x11b),_0x28bd9a),_0x3d3554(![]),_0x28bd9a[_0x1351fd(0x153)]===_0x1351fd(0x15c)?(alert(_0x1351fd(0x123)),_0x45ab09['reset'](),_0x175ba3(_0x1351fd(0x164)),_0x375ac8[_0x1351fd(0xfe)]=_0x1351fd(0x12f),_0x1eadfb[_0x1351fd(0xfe)]='-',_0x375ac8['disabled']=!![],_0x1eadfb[_0x1351fd(0x107)]=!![]):(alert(_0x1351fd(0x172)),console[_0x1351fd(0x126)]('Error\x20del\x20Apps\x20Script:',_0x28bd9a[_0x1351fd(0x126)]),typeof _0x6233ed!=='undefined'&&_0x6233ed[_0x1351fd(0x143)]&&_0x6233ed[_0x1351fd(0x143)]());})[_0x3054c7(0x120)](_0x6d4d81=>{const _0x378a07=_0x3054c7;console[_0x378a07(0x126)](_0x378a07(0x12a),_0x6d4d81),_0x3d3554(![]),alert(_0x378a07(0x14a)),typeof _0x6233ed!==_0x378a07(0x14c)&&_0x6233ed[_0x378a07(0x143)]&&_0x6233ed[_0x378a07(0x143)]();})[_0x3054c7(0x13a)](()=>{_0x3d3554(![]);});}}),_0x1eadfb[_0x313d7a(0x130)](_0x313d7a(0x154),function(_0x575ebc){const _0x64f250=_0x313d7a;_0x575ebc[_0x64f250(0x111)]();const _0x29acca=confirm('¿Estás\x20seguro\x20de\x20no\x20ir\x20a\x20nuestra\x20boda?\x20D:');if(!_0x29acca){}else{console['log'](_0x64f250(0x119)),_0x3d3554(!![]);const _0x370eb5=document[_0x64f250(0x112)](_0x64f250(0x16e)),_0x4cdf11=_0x370eb5?_0x370eb5['value']:'',_0x5d3cef=new FormData();_0x5d3cef[_0x64f250(0x124)](_0x64f250(0x16e),_0x4cdf11),_0x5d3cef[_0x64f250(0x124)](_0x64f250(0x13c),'No');const _0x269764=fetch(appScriptURL,{'method':'POST','body':_0x5d3cef})['then'](_0x54053d=>{const _0x5bf216=_0x64f250;if(!_0x54053d['ok'])throw new Error(_0x5bf216(0x157));return _0x54053d[_0x5bf216(0x161)]();});Promise['all']([_0x269764,_0xf9938d(_0x22a026)])['then'](([_0x245406])=>{const _0x4b0ccc=_0x64f250;console[_0x4b0ccc(0x162)]('Respuesta\x20de\x20Google\x20Sheets\x20(No\x20Confirmar):',_0x245406),_0x245406['result']==='success'?(alert(_0x4b0ccc(0x11f)),_0x175ba3(_0x4b0ccc(0x125)),_0x1eadfb[_0x4b0ccc(0xfe)]='Inasistencia\x20Confirmada',_0x375ac8[_0x4b0ccc(0xfe)]='-',_0x375ac8[_0x4b0ccc(0x107)]=!![],_0x1eadfb[_0x4b0ccc(0x107)]=!![]):(alert('Hubo\x20un\x20error\x20al\x20enviar\x20tu\x20cancelación.\x20Por\x20favor,\x20inténtalo\x20de\x20nuevo.'),console[_0x4b0ccc(0x126)](_0x4b0ccc(0x14f),_0x245406[_0x4b0ccc(0x126)]));})[_0x64f250(0x120)](_0x4ff2f8=>{const _0x66414e=_0x64f250;console['error']('Error\x20al\x20enviar\x20los\x20datos:',_0x4ff2f8),_0x3d3554(![]),alert(_0x66414e(0x14a));})[_0x64f250(0x13a)](()=>{_0x3d3554(![]);});}});const _0x3122d1=document[_0x313d7a(0x112)](_0x313d7a(0x12e)),_0xba3c11=document[_0x313d7a(0x121)];function _0x3d3554(_0x4d76ff){const _0x5f15b9=_0x313d7a;_0x3122d1[_0x5f15b9(0x159)][_0x5f15b9(0x113)]=_0x4d76ff?_0x5f15b9(0x146):_0x5f15b9(0x127),_0x4d76ff?(_0xba3c11[_0x5f15b9(0x159)][_0x5f15b9(0x118)]='hidden',_0xba3c11['style'][_0x5f15b9(0x14e)]='none'):(_0xba3c11[_0x5f15b9(0x159)][_0x5f15b9(0x118)]='',_0xba3c11['style'][_0x5f15b9(0x14e)]='');}const _0x22a026=0x1f4,_0xf9938d=_0x3aa5f8=>new Promise(_0x59b8c6=>setTimeout(_0x59b8c6,_0x3aa5f8));function _0x175ba3(_0x119ae0){const _0x79db18=_0x313d7a,_0x9439f7=document['getElementById']('guestId'),_0x2cdeb7=_0x9439f7?_0x9439f7[_0x79db18(0x116)]:'';_0x2cdeb7&&(localStorage[_0x79db18(0x144)]('confirmStatus_'+_0x2cdeb7,_0x119ae0),console[_0x79db18(0x162)](_0x79db18(0x156)+_0x119ae0+_0x79db18(0x168)+_0x2cdeb7));}function _0x38bd39(){const _0x5b54f4=_0x313d7a,_0x1de8ef=document[_0x5b54f4(0x112)](_0x5b54f4(0x16e)),_0x5e6007=_0x1de8ef?_0x1de8ef[_0x5b54f4(0x116)]:null;if(_0x5e6007){const _0x510b53=localStorage[_0x5b54f4(0x109)](_0x5b54f4(0x105)+_0x5e6007);if(_0x510b53){console[_0x5b54f4(0x162)](_0x5b54f4(0x171)+_0x510b53+_0x5b54f4(0x139));if(_0x510b53===_0x5b54f4(0x164))_0x375ac8[_0x5b54f4(0xfe)]=_0x5b54f4(0x13f),_0x1eadfb[_0x5b54f4(0xfe)]='-',_0x375ac8[_0x5b54f4(0x107)]=!![],_0x1eadfb[_0x5b54f4(0x107)]=!![];else _0x510b53===_0x5b54f4(0x125)&&(_0x1eadfb[_0x5b54f4(0xfe)]=_0x5b54f4(0x167),_0x375ac8['textContent']='-',_0x375ac8[_0x5b54f4(0x107)]=!![],_0x1eadfb[_0x5b54f4(0x107)]=!![]);}else console['log']('No\x20se\x20encontró\x20estado\x20guardado\x20para\x20este\x20invitado.');}}async function _0x19f01a(){const _0x5a7dc0=_0x313d7a;try{const _0x25ddf2=await fetch(_0x5a7dc0(0x12c)),_0x28065d=await _0x25ddf2['json'](),_0x277f5b=new URLSearchParams(window[_0x5a7dc0(0x170)]['search']),_0x5de243=_0x277f5b['get']('i');if(_0x5de243&&_0x28065d[_0x5de243]){const _0x1f9b4c=_0x28065d[_0x5de243];for(let _0x40acb6=0x1;_0x40acb6<=0x6;_0x40acb6++){const _0x2593bc=_0x5a7dc0(0x15e)+_0x40acb6,_0x2d17e6=_0x5a7dc0(0x114)+_0x40acb6,_0x1d41fb=_0x1f9b4c[_0x2593bc],_0x59e894=document['getElementById'](_0x2d17e6);if(_0x1d41fb&&_0x59e894){_0x59e894[_0x5a7dc0(0xfe)]=_0x1d41fb;if(_0x40acb6===0x1){const _0x100f68=document['getElementById'](_0x5a7dc0(0x134));if(_0x100f68)_0x100f68['value']=_0x1d41fb;}}else _0x59e894&&(_0x59e894[_0x5a7dc0(0x159)][_0x5a7dc0(0x113)]=_0x5a7dc0(0x127));}document[_0x5a7dc0(0x112)](_0x5a7dc0(0x16e))[_0x5a7dc0(0x116)]=_0x5de243,document['getElementById'](_0x5a7dc0(0x11c))[_0x5a7dc0(0xfe)]=_0x1f9b4c[_0x5a7dc0(0x133)],document[_0x5a7dc0(0x112)](_0x5a7dc0(0x10b))[_0x5a7dc0(0xfe)]=_0x1f9b4c[_0x5a7dc0(0x133)],document[_0x5a7dc0(0x112)](_0x5a7dc0(0x16a))['textContent']=_0x1f9b4c[_0x5a7dc0(0x15a)],document[_0x5a7dc0(0x112)](_0x5a7dc0(0x16e))[_0x5a7dc0(0x116)]=_0x5de243,_0x4bbe78(_0x1f9b4c),_0x38bd39();const _0x4781d8=_0x1f9b4c['pases'],_0x2f0c9a=document[_0x5a7dc0(0x112)](_0x5a7dc0(0xfd)),_0x55bedb=document['getElementById']('es'),_0x5a95ce=document['getElementById']('essF'),_0x5512cc=document[_0x5a7dc0(0x112)]('esF');_0x4781d8===0x1?(_0x55bedb['textContent']='',_0x2f0c9a[_0x5a7dc0(0xfe)]='',_0x5512cc['textContent']='',_0x5a95ce[_0x5a7dc0(0xfe)]=''):(_0x55bedb[_0x5a7dc0(0xfe)]='s',_0x2f0c9a['textContent']='es',_0x5512cc[_0x5a7dc0(0xfe)]='s',_0x5a95ce[_0x5a7dc0(0xfe)]='es');}else{const _0xe6c557=document['getElementById'](_0x5a7dc0(0x106));_0xe6c557&&(_0xe6c557[_0x5a7dc0(0xfe)]=_0x5a7dc0(0x13d));for(let _0x3db23e=0x2;_0x3db23e<=0x6;_0x3db23e++){const _0x4f1cd3=document[_0x5a7dc0(0x112)]('inviPass'+_0x3db23e);_0x4f1cd3&&(_0x4f1cd3[_0x5a7dc0(0x159)][_0x5a7dc0(0x113)]=_0x5a7dc0(0x127));}}}catch(_0x1eba9e){console[_0x5a7dc0(0x126)](_0x5a7dc0(0x104),_0x1eba9e);}}function _0x555be8(){const _0xbdd64c=_0x313d7a,_0x562062=document[_0xbdd64c(0x112)](_0xbdd64c(0x16e)),_0x27d4b8=_0x562062?_0x562062['value']:'';if(_0x27d4b8){const _0x45d612=_0xbdd64c(0x105)+_0x27d4b8;localStorage[_0xbdd64c(0x100)](_0x45d612),alert(_0xbdd64c(0x151)+_0x27d4b8+'.'),_0x375ac8[_0xbdd64c(0xfe)]=_0xbdd64c(0x117),_0x375ac8[_0xbdd64c(0x107)]=![],_0x1eadfb[_0xbdd64c(0xfe)]=_0xbdd64c(0x103),_0x1eadfb['disabled']=![],_0x45ab09[_0xbdd64c(0x101)](),console[_0xbdd64c(0x162)](_0xbdd64c(0x12b)+_0x45d612+_0xbdd64c(0x155));}else alert(_0xbdd64c(0x11e));}const _0x31c75d=document['getElementById']('resetLocalStorageBtn');_0x31c75d&&_0x31c75d[_0x313d7a(0x130)]('click',_0x555be8);function _0x4bbe78(_0x510a1){const _0x2d0c16=_0x313d7a,_0x5673e5=_0x510a1[_0x2d0c16(0x133)];_0x186050[_0x2d0c16(0x16d)]='';const _0x57eb02=Math[_0x2d0c16(0x132)](_0x5673e5,0x6);for(let _0x3d529f=0x1;_0x3d529f<=_0x57eb02;_0x3d529f++){const _0x5e303c=_0x4005a7[_0x2d0c16(0x13e)](!![]);_0x5e303c['style']['display']='block';const _0x25e4db=_0x5e303c['querySelector']('input'),_0x21dedd=_0x5e303c[_0x2d0c16(0x13b)]('label'),_0x2c3dfa=_0x2d0c16(0x15e)+_0x3d529f,_0x395441=_0x510a1[_0x2c3dfa];_0x25e4db['id']=_0x2d0c16(0x16f)+_0x3d529f,_0x25e4db['name']=_0x2d0c16(0x14e)+_0x3d529f,_0x21dedd['setAttribute']('for','txtnombre'+_0x3d529f),_0x21dedd[_0x2d0c16(0xfe)]=_0x2d0c16(0x148)+_0x3d529f,_0x395441&&(_0x25e4db[_0x2d0c16(0x116)]=_0x395441),_0x186050[_0x2d0c16(0x10d)](_0x5e303c);}}_0x19f01a();}),document[_0x5ecd5d(0x130)](_0x5ecd5d(0x102),()=>{const _0x3faa90=new Date('Feb\x2021,\x202026\x2016:00:00')['getTime']();let _0x4c8e35;const _0x5b0195=(_0x2d0982,_0x4ba477)=>{const _0x3b01eb=_0x542d,_0xc88f5d=document[_0x3b01eb(0x112)](_0x2d0982);if(_0xc88f5d)_0xc88f5d['innerHTML']=_0x4ba477;},_0x2ad706=()=>{const _0x3a4d7c=_0x542d,_0x2dae11=Date[_0x3a4d7c(0x12d)]();let _0x4d343e=_0x3faa90-_0x2dae11;if(_0x4d343e<0x0){clearInterval(_0x4c8e35),document[_0x3a4d7c(0x112)](_0x3a4d7c(0x108))[_0x3a4d7c(0x16d)]='¡',document['getElementById']('hr')[_0x3a4d7c(0x16d)]='YA',document[_0x3a4d7c(0x112)](_0x3a4d7c(0x132))[_0x3a4d7c(0x16d)]='LLE',document[_0x3a4d7c(0x112)](_0x3a4d7c(0x10c))[_0x3a4d7c(0x16d)]=_0x3a4d7c(0x138);return;}const _0x3d79cc=0x3e8,_0x3ba2b9=_0x3d79cc*0x3c,_0x22ae82=_0x3ba2b9*0x3c,_0x2e856d=_0x22ae82*0x18,_0x543ae3=Math[_0x3a4d7c(0x147)](_0x4d343e/_0x2e856d),_0x35b028=Math[_0x3a4d7c(0x147)](_0x4d343e%_0x2e856d/_0x22ae82),_0x385981=Math['floor'](_0x4d343e%_0x22ae82/_0x3ba2b9),_0x5c9320=Math['floor'](_0x4d343e%_0x3ba2b9/_0x3d79cc);document[_0x3a4d7c(0x112)](_0x3a4d7c(0x108))[_0x3a4d7c(0x16d)]=_0x543ae3,document[_0x3a4d7c(0x112)]('hr')[_0x3a4d7c(0x16d)]=String(_0x35b028)[_0x3a4d7c(0x122)](0x2,'0'),document[_0x3a4d7c(0x112)](_0x3a4d7c(0x132))['innerHTML']=String(_0x385981)[_0x3a4d7c(0x122)](0x2,'0'),document[_0x3a4d7c(0x112)](_0x3a4d7c(0x10c))['innerHTML']=String(_0x5c9320)[_0x3a4d7c(0x122)](0x2,'0');};_0x2ad706(),_0x4c8e35=setInterval(_0x2ad706,0x3e8);}),document['addEventListener'](_0x5ecd5d(0x102),()=>{const _0x1403b8=_0x5ecd5d,_0x254876=document[_0x1403b8(0x10a)](_0x1403b8(0x140)),_0x53c752={'root':null,'rootMargin':_0x1403b8(0x14d),'threshold':0.2},_0x204162=new IntersectionObserver((_0x2f9e1a,_0x191bf9)=>{const _0x4aee79=_0x1403b8;_0x2f9e1a[_0x4aee79(0x165)](_0x177203=>{const _0x469e4f=_0x4aee79;_0x177203[_0x469e4f(0x152)]&&(_0x177203['target'][_0x469e4f(0x131)][_0x469e4f(0x137)]('is-visible'),_0x191bf9[_0x469e4f(0x16c)](_0x177203['target']));});},_0x53c752);_0x254876['forEach'](_0x1d88d5=>{const _0x2050ce=_0x1403b8;_0x204162[_0x2050ce(0x15f)](_0x1d88d5);});});
+const appScriptURL = 'https://script.google.com/macros/s/AKfycbzpS2DzaZ6NvphaTysjo0gyK5ALV-0b9GHvTazhnCfxTmG8jC6YYEgDjamfecEr_kE/exec'; 
 
+// https://issay22.github.io/Invitacion_Boda_Karina_Kevin/?i=REYNA
+
+document.addEventListener('DOMContentLoaded', () => {
+
+    const siBtnForm = document.getElementById('siconfirmo');
+    const cierraFormSi = document.getElementById('cerrarModal');
+    const abreFormSi = document.getElementById('confirmoModal'); 
+    const btnNoEnviar = document.getElementById('btn-no-enviar');
+    const camposContainer = document.getElementById('camposInvitadosContainer');
+    const campoTemplate = document.getElementById('campoTemplate');
+    const invitacionForm = document.getElementById('invitacionForm');
+    const elNombrePrincipal = document.getElementById('nombreinvitado');
+    const btnEnviar = document.getElementById('btn-si-enviar');
+
+    // ---  open modal ---
+    siBtnForm.addEventListener('click', () => {
+        abreFormSi.showModal();
+        abreFormSi.focus();
+    });
+
+    cierraFormSi.addEventListener('click', () => {
+        abreFormSi.close();
+        invitacionForm.reset();
+    });
+
+
+    // ---  Preguntr antes de enviar el form ---
+    btnEnviar.addEventListener('click', function(event) {
+        
+        event.preventDefault(); 
+        
+        if (typeof abreFormSi !== 'undefined' && abreFormSi.close) {
+             abreFormSi.close();
+        }
+
+        const confirmacion = confirm("¿Estás seguro de que deseas confirmar la asistencia con estos nombres?");
+        
+        
+        if (!confirmacion) {
+            // Si cancela
+            if (typeof abreFormSi !== 'undefined' && abreFormSi.showModal) {
+                 abreFormSi.showModal();
+            }
+        } else {
+            // Si acepta se envía
+            console.log("Confirmación aceptada, listos para enviar a Google Sheets...");
+            toggleLoading(true);
+
+            const confirmInput = document.getElementById('confirm');
+            if (confirmInput) {
+                confirmInput.value = "Sí";
+            }
+            
+            const formData = new FormData(invitacionForm);
+
+            const fetchPromise = fetch(appScriptURL, {
+                method: 'POST', 
+                body: formData
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Error de red al conectar con el Apps Script.');
+                }
+                return response.json(); 
+            });
+
+            Promise.all([fetchPromise, crearPromesaDemora(tEspera)])
+                .then(([data]) => {
+
+                console.log('Respuesta de Google Sheets:', data);
+                toggleLoading(false);
+
+                if (data.result === 'success') {
+                    alert('¡Asistencia confirmada con éxito! Gracias por tu respuesta.');
+                    
+                    // reset modal - cambiar nombre - deshabilitar
+                    invitacionForm.reset(); 
+                    guardarEstadoConfirmacion('confirmado')
+                    siBtnForm.textContent = 'Asistencia Confirmada';
+                    btnNoEnviar.textContent = '-';
+                    siBtnForm.disabled = true;
+                    btnNoEnviar.disabled = true;
+
+                } else {
+                    alert('Hubo un error al confirmar la asistencia. Inténtalo de nuevo o contacta al administrador.');
+                    console.error('Error del Apps Script:', data.error);
+
+                    if (typeof abreFormSi !== 'undefined' && abreFormSi.showModal) {
+                            abreFormSi.showModal();
+                        }
+                }
+            })
+            .catch(error => {
+                console.error('Error al enviar los datos:', error);
+                toggleLoading(false);
+                alert('Error de conexión. Por favor, revisa tu conexión a internet e inténtalo de nuevo.');
+                if (typeof abreFormSi !== 'undefined' && abreFormSi.showModal) {
+                        abreFormSi.showModal();
+                    }
+            })
+            .finally(() => {
+                toggleLoading(false);
+            });
+        }
+
+    });
+
+    btnNoEnviar.addEventListener('click', function(event) {
+
+        event.preventDefault(); 
+        const confirmacion = confirm("¿Estás seguro de no ir a nuestra boda? D:");
+
+        if (!confirmacion) {
+            
+        } else {
+
+            console.log("Cancelación aceptada, enviando 'No' a Google Sheets...");
+            toggleLoading(true);
+
+            const guestIdInput = document.getElementById('guestId');
+            const guestIdValue = guestIdInput ? guestIdInput.value : '';
+
+            const formDataNo = new FormData();
+            formDataNo.append('guestId', guestIdValue); 
+            formDataNo.append('confirm', 'No'); 
+            
+            const fetchPromise = fetch(appScriptURL, {
+                method: 'POST', 
+                body: formDataNo
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Error de red al conectar con el Apps Script.');
+                }
+                return response.json(); 
+            });
+
+            Promise.all([fetchPromise, crearPromesaDemora(tEspera)])
+            .then(([data]) => {
+
+                console.log('Respuesta de Google Sheets (No Confirmar):', data);
+
+                if (data.result === 'success') {
+                    
+                    alert("Su cancelación se ha registrado correctamente. :'( ");
+                    guardarEstadoConfirmacion('cancelado');
+                    btnNoEnviar.textContent = 'Inasistencia Confirmada';
+                    siBtnForm.textContent = '-';
+                    siBtnForm.disabled = true;
+                    btnNoEnviar.disabled = true;
+
+                } else {
+                    alert('Hubo un error al enviar tu cancelación. Por favor, inténtalo de nuevo.');
+                    console.error('Error del Apps Script:', data.error);
+                }
+            })
+            .catch(error => {
+                console.error('Error al enviar los datos:', error);
+                toggleLoading(false);
+                alert('Error de conexión. Por favor, revisa tu conexión a internet e inténtalo de nuevo.');
+            })
+            .finally(() => {
+                toggleLoading(false);
+            });
+        }
+    });
+
+    // Pantalla de carga
+    const loadingOverlay = document.getElementById('loadingOverlay');
+    const elBody = document.body;
+
+    function toggleLoading(show) {
+        loadingOverlay.style.display = show ? 'flex' : 'none';
+        if (show) {
+            elBody.style.overflowY = 'hidden';
+            elBody.style.pointerEvents = 'none';
+        } else {
+            elBody.style.overflowY = '';
+            elBody.style.pointerEvents = '';
+        }
+    }
+
+    const tEspera = 500;
+    const crearPromesaDemora = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+    // Local storage para las respuestas?
+
+    function guardarEstadoConfirmacion(estado) {
+        const guestIdInput = document.getElementById('guestId');
+        const guestCode = guestIdInput ? guestIdInput.value : '';
+        
+        if (guestCode) {
+            localStorage.setItem(`confirmStatus_${guestCode}`, estado);
+            console.log(`Estado '${estado}' guardado para el invitado: ${guestCode}`);
+        }
+    }
+
+    function cargarEstadoConfirmacion() {
+        const guestIdInput = document.getElementById('guestId');
+        const guestCode = guestIdInput ? guestIdInput.value : null;
+
+        if (guestCode) {
+            const estadoGuardado = localStorage.getItem(`confirmStatus_${guestCode}`);
+            
+            if (estadoGuardado) {
+                console.log(`Estado guardado encontrado: ${estadoGuardado}. Aplicando cambios...`);
+                
+                if (estadoGuardado === 'confirmado') {
+                    siBtnForm.textContent = 'Ya confirmaste tu asistencia';
+                    btnNoEnviar.textContent = '-';
+                    siBtnForm.disabled = true;
+                    btnNoEnviar.disabled = true;
+
+                } else if (estadoGuardado === 'cancelado') {
+                    btnNoEnviar.textContent = 'Ya confirmaste tu inasistencia';
+                    siBtnForm.textContent = '-';
+                    siBtnForm.disabled = true;
+                    btnNoEnviar.disabled = true;
+                }
+            } else {
+                console.log('No se encontró estado guardado para este invitado.');
+            }
+        }
+    }
+
+
+    // --- Cargar .Json y Generar Campos ---
+    async function loadInvitacion() {
+        try {
+            const response = await fetch('data.json');
+            const guestsData = await response.json();
+
+            const urlParams = new URLSearchParams(window.location.search);
+            const guestCode = urlParams.get('i'); 
+
+            if (guestCode && guestsData[guestCode]) {
+                const guestInfo = guestsData[guestCode];
+
+                for (let i = 1; i <= 6; i++) {
+                    const inviKey = `invi${i}`;
+                    const inviElementId = `inviPass${i}`;
+                    
+                    const inviName = guestInfo[inviKey];
+                    const inviElement = document.getElementById(inviElementId);
+
+                    if (inviName && inviElement) {
+                        inviElement.textContent = inviName;
+                        
+                        if (i === 1) {
+                            const principalInput = document.getElementById('txtnombre1'); 
+                            if(principalInput) principalInput.value = inviName;
+                        }
+
+                    } else if (inviElement) {
+                         inviElement.style.display = 'none';
+                    }
+                }
+                
+                document.getElementById('guestId').value = guestCode;
+                document.getElementById('npases').textContent = guestInfo.pases; 
+                document.getElementById('npasesF').textContent = guestInfo.pases; 
+                document.getElementById('mensaje').textContent = guestInfo.mensajeEspecial; 
+                document.getElementById('guestId').value = guestCode;
+
+                generarCamposInvitados(guestInfo); 
+                cargarEstadoConfirmacion();
+
+                const pases = guestInfo.pases;
+                const ess = document.getElementById('ess');
+                const es = document.getElementById('es');
+                const essF = document.getElementById('essF');
+                const esF = document.getElementById('esF');
+
+                if (pases === 1) {
+                    es.textContent = '';
+                    ess.textContent = '';
+                    esF.textContent = '';
+                    essF.textContent = '';
+                } else {
+                    es.textContent = 's';
+                    ess.textContent = 'es';
+                    esF.textContent = 's';
+                    essF.textContent = 'es';
+                }
+
+            }else {
+                const inviPass1 = document.getElementById('inviPass1');
+                if (inviPass1) {
+                    inviPass1.textContent = 'Estimado invitado, no estás identificado. Contáctanos por favor.';
+                }
+                for (let i = 2; i <= 6; i++) {
+                    const inviElement = document.getElementById(`inviPass${i}`);
+                    if (inviElement) {
+                        inviElement.style.display = 'none';
+                    }
+                }
+            }
+        } catch (error) {
+            console.error("Error al cargar los datos de invitación:", error);
+        }
+    }
+
+    //----------------------------------------------------------- BORRAR -------------------------------------------------------------------
+    // --- FUNCIÓN TEMPORAL DE RESET ---
+    function resetearLocalStorage() {
+        const guestIdInput = document.getElementById('guestId');
+        const guestCode = guestIdInput ? guestIdInput.value : '';
+
+        if (guestCode) {
+            const claveConfirmacion = `confirmStatus_${guestCode}`;
+            
+            // 1. Borrar la clave específica del invitado
+            localStorage.removeItem(claveConfirmacion);
+            
+            // 2. Notificar y restaurar la UI
+            alert(`Memoria local de la confirmación borrada para el invitado: ${guestCode}.`);
+            
+            // 3. Restaurar los botones a su estado original
+            siBtnForm.textContent = '¡Sí Confirmo!';
+            siBtnForm.disabled = false;
+            btnNoEnviar.textContent = 'No puedo asistir';
+            btnNoEnviar.disabled = false;
+            
+            // 4. Asegurarse de que el formulario esté reseteado (opcional, pero buena práctica)
+            invitacionForm.reset(); 
+            
+            console.log(`Clave '${claveConfirmacion}' eliminada de localStorage.`);
+            
+        } else {
+            alert("No se ha podido obtener el guestId para resetear la memoria.");
+        }
+    }
+
+    // --- EVENT LISTENER PARA EL BOTÓN TEMPORAL ---
+    const resetLocalStorageBtn = document.getElementById('resetLocalStorageBtn');
+    if (resetLocalStorageBtn) {
+        resetLocalStorageBtn.addEventListener('click', resetearLocalStorage);
+    }
+    //----------------------------------------------------------- BORRAR -------------------------------------------------------------------
+
+    function generarCamposInvitados(guestInfo) {
+        const numPases = guestInfo.pases; 
+        
+        camposContainer.innerHTML = '';
+
+        const pasesAImprimir = Math.min(numPases, 6);
+
+        for (let i = 1; i <= pasesAImprimir; i++) {
+            const nuevoCampoSection = campoTemplate.cloneNode(true);
+            nuevoCampoSection.style.display = 'block'; 
+            
+            const inputElement = nuevoCampoSection.querySelector('input');
+            const labelElement = nuevoCampoSection.querySelector('label');
+
+            const inviKey = `invi${i}`;
+            const inviName = guestInfo[inviKey];
+
+            inputElement.id = `txtnombre${i}`; 
+            inputElement.name = `invitado${i}`;
+            
+            labelElement.setAttribute('for', `txtnombre${i}`); 
+            labelElement.textContent = `Invitado ${i}`;
+
+            if (inviName) {
+                inputElement.value = inviName;
+            }
+
+            camposContainer.appendChild(nuevoCampoSection);
+        }
+    }
+
+    // --- carga todo ---
+    loadInvitacion();
+    // --- para ejemplos offline ---
+    //generarCamposInvitados(3, 'Prueba Nombre Invitado Principal'); 
+    //actualizarTextoPorPases();
+});
+
+//Reloj
+document.addEventListener('DOMContentLoaded', () => {    
+    
+    const fechaBoda = new Date("Feb 21, 2026 16:00:00").getTime();
+
+    let intervalo;
+
+    const setText = (id, text) => {
+        const el = document.getElementById(id);
+        if (el) el.innerHTML = text;
+    };
+
+    const actualizarReloj = () => {
+        const hoy = Date.now(); 
+        let falta = fechaBoda - hoy;
+
+        if (falta < 0) {
+            clearInterval(intervalo);
+            document.getElementById("dia").innerHTML = "¡";
+            document.getElementById("hr").innerHTML = "YA";
+            document.getElementById("min").innerHTML = "LLE";
+            document.getElementById("seg").innerHTML = "GÓ!";
+            return;
+        }
+
+        const segundo = 1000;
+        const minuto = segundo * 60;
+        const hora = minuto * 60;
+        const dia = hora * 24;
+
+        const diaF = Math.floor(falta / dia);
+        const hrF = Math.floor((falta % dia) / hora);
+        const minF = Math.floor((falta % hora) / minuto);
+        const segF = Math.floor((falta % minuto) / segundo);
+
+        document.getElementById("dia").innerHTML = diaF;
+        document.getElementById("hr").innerHTML = String(hrF).padStart(2, "0");
+        document.getElementById("min").innerHTML = String(minF).padStart(2, "0");
+        document.getElementById("seg").innerHTML = String(segF).padStart(2, "0");
+
+    };
+
+    actualizarReloj(); 
+    intervalo = setInterval(actualizarReloj, 1000); 
+});
+
+// animaciones
+
+document.addEventListener('DOMContentLoaded', () => {
+    const elementosAnimar = document.querySelectorAll('.animarAlBajar');
+
+    const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.2
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    elementosAnimar.forEach(el => {
+        observer.observe(el);
+    });
+
+});
