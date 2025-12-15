@@ -220,9 +220,7 @@
     "invi1": "Juana Meza",
     "invi2": "Diana Ramírez",
     "invi3": "Jonathan Medina",
-    "invi4": "Luis Ramírez",
-    "invi5": "Mari de Ramírez",
-    "pases": 5,
+    "pases": 3,
     "mensajeEspecial": "¡Nos encantaría que fueran parte de nuestra celebración!"
   },
   "36": {
@@ -258,7 +256,9 @@
   "41": {
     "invi1": "Andrés Cesar Rojas",
     "extra": "invitado + 1",
-    "pases": 2,
+    "extra1": "invitado + 1",
+    "extra2": "invitado + 1",
+    "pases": 4,
     "mensajeEspecial": "¡Será un honor tenerlos en nuestra celebración!"
   },
   "42": {
@@ -348,7 +348,8 @@
   },
   "56": {
     "invi1": "Uriel García",
-    "pases": 1,
+    "extra": "invitado + 1",
+    "pases": 2,
     "mensajeEspecial": "¡Nos encantaría que fueran parte de nuestra celebración!"
   },
   "57": {
@@ -475,6 +476,20 @@
     "extra": "invitado + 1",
     "pases": 2,
     "mensajeEspecial": "¡Nos encantaría que fueran parte de nuestra celebración!"
+  },
+  "78": {
+    "invi1": "Luis Ramírez",
+    "invi2": "Mari de Ramírez",
+    "pases": 2,
+    "mensajeEspecial": "¡Nos encantaría que fueran parte de nuestra celebración!"
+  },
+  "79": {
+    "invi1": "Karla Méndez",
+    "invi2": "Monserrat Muñoz",
+    "pases": 2,
+    "mensajeEspecial": "¡Nos encantaría que fueran parte de nuestra celebración!"
   }
+  
 }
+
 
