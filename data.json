@@ -488,8 +488,39 @@
     "invi2": "Monserrat Muñoz",
     "pases": 2,
     "mensajeEspecial": "¡Nos encantaría que fueran parte de nuestra celebración!"
+  },
+  "80": {
+    "invi1": "Mariana Luevano",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Su compañía hará nuestra boda aún más especial!"
+  },
+  "81": {
+    "invi1": "Axel CV",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Su compañía hará nuestra boda aún más especial!"
+  },
+  "82": {
+    "invi1": "Bruno Luna",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Su compañía hará nuestra boda aún más especial!"
+  },
+  "83": {
+    "invi1": "Milton Luna",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Su compañía hará nuestra boda aún más especial!"
+  },
+  "84": {
+    "invi1": "Alejandro Luna",
+    "extra": "invitado + 1",
+    "pases": 2,
+    "mensajeEspecial": "¡Su compañía hará nuestra boda aún más especial!"
   }
   
 }
+
 
 
