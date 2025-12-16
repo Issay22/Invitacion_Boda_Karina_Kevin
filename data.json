@@ -20,7 +20,8 @@
   "4": {
     "invi1": "Ofelia Cortés",
     "invi2": "Magnolia Cortés",
-    "pases": 2,
+    "invi3": "Isis Cortés",
+    "pases": 3,
     "mensajeEspecial": "¡Su presencia hará nuestro día aún más especial!"
   },
   "5": {
@@ -521,6 +522,7 @@
   }
   
 }
+
 
 
 
