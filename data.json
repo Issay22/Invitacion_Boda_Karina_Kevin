@@ -12,8 +12,8 @@
     "mensajeEspecial": "¡Será un honor compartir este día tan especial con ustedes!"
   },
   "3": {
-    "invi1": "Efren 2",
-    "invi2": "Efren 3",
+    "invi1": "Eugenio Guerrero",
+    "extra": "invitado + 1",
     "pases": 2,
     "mensajeEspecial": "¡Los esperamos para celebrar juntos este gran momento!"
   },
@@ -522,6 +522,7 @@
   }
   
 }
+
 
 
 
