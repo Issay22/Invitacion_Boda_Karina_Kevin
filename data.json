@@ -43,8 +43,8 @@
     "mensajeEspecial": "¡Será un honor compartir este día tan especial con ustedes!"
   },
   "8": {
-    "invi1": "Leo. Cortés",
-    "extra": "invitado + 1",
+    "invi1": "Luis Cortés",
+    "invi2": "Fernando Cortés",
     "pases": 2,
     "mensajeEspecial": "¡Su presencia hará nuestro día aún más especial!"
   },
@@ -522,6 +522,7 @@
   }
   
 }
+
 
 
 
