@@ -246,9 +246,10 @@
         <section id="resp" class="container py-5 text-center  animahidde">
 
             <h1 >Registro cerrado. ¡Estamos listos para el gran día!</h1><br>
-            <!-- HIDE 
+             <!-- HIDE
             <p class="pa">Estamos felices de compartir esta alegría contigo.</p>
             <p class="pa">¡Nos encantaría contar con tu presencia!</p>
+            -->
             <h2 class="pa fw-bold py-5"> -NO NIÑOS-</h2>
 
             <div class="pb-5">
@@ -257,7 +258,7 @@
 
                         <div class="pt-4">
                             <h2 class="pa">Recuerda que solo tienes <span id="npasesF" class="fw-bold">2</span> invitacion<span id="essF">[es]</span> asignada<span id="esF">[s]</span></h2>
-                            <p class="pa py-3">En caso de no requerir una invitación, completa el campo con N/A</p>
+                            <p class="pa py-3 d-none">En caso de no requerir una invitación, completa el campo con N/A</p>
                         </div>
 
                         <form id="invitacionForm" method="dialog"> 
@@ -274,7 +275,7 @@
                             
                             <div class="pt-5">
                                 
-                                <button type="button" class="btn btn-outline-dark btn-lg" style="width: 80%;" id="btn-si-enviar">Confirmar</button>
+                                <button type="button" class="btn btn-outline-dark btn-lg d-none" style="width: 80%;" id="btn-si-enviar">Confirmar</button>
                             </div>
                         </form>
 
@@ -284,7 +285,7 @@
 
                     </dialog>
 
-                    <button target="_blank" class="btn btn-outline-dark btn-lg" id="siconfirmo">Confirmar Asistencia</button>
+                    <button target="_blank" class="btn btn-outline-dark btn-lg d-none" id="siconfirmo">Confirmar Asistencia</button>
                 </div>
             </div>
 
@@ -293,12 +294,12 @@
             </div>
             
            
-            <p class="pa py-5">Agradeceremos mucho que nos confirmes si no podrás acompañarnos en nuestro día.</p>
+            <p class="pa py-5 d-none">Agradeceremos mucho que nos confirmes si no podrás acompañarnos en nuestro día.</p>
             <div>
-                <button target="_blank" class="btn btn-outline-dark btn-lg" id="btn-no-enviar">No podré asistir, lo siento.</button>
+                <button target="_blank" class="btn btn-outline-dark btn-lg" id="btn-no-enviar d-none">No podré asistir, lo siento.</button>
             </div> 
             
-        -->
+        
         </section>
 
         
@@ -455,6 +456,7 @@
 
 
 </html>
+
 
 
 
