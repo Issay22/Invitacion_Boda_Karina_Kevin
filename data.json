@@ -525,13 +525,13 @@
     "invi2": "Gerardo Reyna",
     "pases": 2,
     "mensajeEspecial": "¡Nos encantaría que fueran parte de nuestra celebración!"
-  },,
+  },
   "86": {
     "invi1": "Abigail Reyna",
     "invi2": "Emiliano Martínez",
     "pases": 2,
     "mensajeEspecial": "¡Su compañía hará nuestra boda aún más especial!"
-  },,
+  },
   "87": {
     "invi1": "FRANCISCA RAMÍREZ",
     "invi2": "CAMILA RAMÍREZ",
@@ -540,6 +540,7 @@
   }
   
 }
+
 
 
 
