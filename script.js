@@ -242,12 +242,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 const invitSpecial = ['85', '86', '87', '29'];
 
                 if (guestCode && invitSpecial.includes(guestCode)) {
+                    
                     const idsAMostrar = ["txtConfirm","txtConfirmNos", "siconfirmo", "imgOrna", "txtConfirmAgr", "btn-no-enviar"];
+                    
                     idsAMostrar.forEach(id => {
                         const el = document.getElementById(id);
                         if (el) el.classList.remove('d-none');
                     });
+
+                    const tituloRegiss = document.getElementById('Regiss');
+                    if (tituloRegiss) {
+                        tituloRegiss.classList.add('d-none');
+                    }
                 }
+                
                 // === end special ===
 
                 for (let i = 1; i <= 6; i++) {
@@ -461,5 +469,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
