@@ -238,6 +238,18 @@ document.addEventListener('DOMContentLoaded', () => {
             if (guestCode && guestsData[guestCode]) {
                 const guestInfo = guestsData[guestCode];
 
+                // === Special ===
+                const invitSpecial = ['85', '86', '87'];
+
+                if (guestCode && invitSpecial.includes(guestCode)) {
+                    const idsAMostrar = ["txtConfirm","txtConfirmNos", "siconfirmo", "imgOrna", "txtConfirmAgr", "btn-no-enviar"];
+                    idsAMostrar.forEach(id => {
+                        const el = document.getElementById(id);
+                        if (el) el.classList.remove('d-none');
+                    });
+                }
+                // === end special ===
+
                 for (let i = 1; i <= 6; i++) {
                     const inviKey = `invi${i}`;
                     const inviElementId = `inviPass${i}`;
@@ -449,3 +461,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
