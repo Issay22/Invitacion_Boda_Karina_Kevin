@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const guestInfo = guestsData[guestCode];
 
                 // === Special ===
-                const invitSpecial = ['85', '86', '87'];
+                const invitSpecial = ['85', '86', '87', '29'];
 
                 if (guestCode && invitSpecial.includes(guestCode)) {
                     const idsAMostrar = ["txtConfirm","txtConfirmNos", "siconfirmo", "imgOrna", "txtConfirmAgr", "btn-no-enviar"];
@@ -461,4 +461,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
