@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const guestInfo = guestsData[guestCode];
 
                 // === Special ===
-                const invitSpecial = ['89']; //abrir Inv ['89', '86', '87', '29', '88'];
+                const invitSpecial = ['90', "91"]; //abrir Inv ['89', '86', '87', '29', '88'];
 
                 if (guestCode && invitSpecial.includes(guestCode)) {
                     
@@ -469,6 +469,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
