@@ -549,9 +549,15 @@
     "invi2": "+ 1 acompañante",
     "pases": 2,
     "mensajeEspecial": "¡Nos encantaría que fueran parte de nuestra celebración!"
+  },
+  "90": {
+    "invi1": "Miguel Aguirre",
+    "pases": 1,
+    "mensajeEspecial": "¡Nos encantaría que fueran parte de nuestra celebración!"
   }
   
 }
+
 
 
 
